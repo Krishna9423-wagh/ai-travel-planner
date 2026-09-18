@@ -382,6 +382,15 @@ export default function HomePage() {
             Built with Next.js, OpenAI & Google Maps
           </div>
         </div>
+        {/* Developer Contact Row */}
+        <div className="max-w-7xl mx-auto mt-6 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="text-white/20 text-xs">© 2024 TravelAI. All rights reserved.</div>
+          <div className="flex flex-col sm:flex-row items-center gap-4">
+            <span className="font-display font-semibold text-sm" style={{color: '#f59e0b'}}>👨‍💻 Krishna Wagh</span>
+            <a href="tel:+917840946414" className="text-white/40 hover:text-yellow-400 transition-colors text-xs">📞 +91 7840946414</a>
+            <a href="mailto:waghk833@gmail.com" className="text-white/40 hover:text-yellow-400 transition-colors text-xs">✉️ waghk833@gmail.com</a>
+          </div>
+        </div>
       </footer>
 
       <style jsx>{`
