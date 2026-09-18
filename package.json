@@ -1,0 +1,42 @@
+{
+  "name": "ai-travel-planner",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "openai": "^4.52.0",
+    "@react-google-maps/api": "^2.19.3",
+    "use-places-autocomplete": "latest",
+    "@react-three/fiber": "^8.16.8",
+    "@react-three/drei": "^9.109.2",
+    "three": "^0.166.1",
+    "framer-motion": "^11.3.19",
+    "zustand": "^4.5.4",
+    "lucide-react": "^0.414.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.4.0",
+    "react-hot-toast": "^2.4.1",
+    "uuid": "^10.0.0",
+    "@types/uuid": "^10.0.0",
+    "@types/three": "^0.166.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8",
+    "autoprefixer": "^10.0.1"
+  }
+}
